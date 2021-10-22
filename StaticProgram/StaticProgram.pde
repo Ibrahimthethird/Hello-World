@@ -8,7 +8,7 @@ String c = "\tbanana!\t\t"; //Character escapes
 String d = "to";
 String e = "me";
 String f = ".";
-println(a, b, c, d, e + f); //Two Types of Debugging
+println(a, b, c, d, e + f); //Two Types of concatenation 
 //Counting Phrase
 String g = "Mr";
 String h = ".";
@@ -19,7 +19,7 @@ String l = "10"; //String Vairable, no adding allowed
 int ten = int(l); //Number Variable, adding is allowed
 //Java is a strongly formatted language
 String m = "by";
-String n = "1";//Not a NUmber, NaN
-int one = int(n); //IS a number by "casting"
+String n = "1";//Not a Number, NaN
+int one = int(n); //Is a number by "casting"
 println(g + h, i, j, k, l+1, m, n);
 println(g + h, i, j, k, ten+1, m, n);
