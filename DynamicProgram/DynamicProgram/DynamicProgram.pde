@@ -1,32 +1,46 @@
 //Global Variables
 //Called Initializing Variables
 String g;
-String h;
+char h;
 String i;
 String j;
 String k;
 String l;
-int ten;
+String p;
+int Five, Ten, Fifty, FiveHundred, FiveThousand;
+long FiveMillion; //big Int
+float NewCountingVariable_1; //small decimal variable
+double NewCountingVariable_2; //big decimal vairable 
 String m;
-String n ;
+String n;
+String o;
 int one;
+
 
 void setup() {
   //
   //
   //Called Declaring Values
-  g = "Mr";
-  h = ".";
-  i = "Mercer";
-  j = "counts";
-  k = "to";
-  l = "10";
-  ten = int(l);
-  m = "by";
-  n = "1";
-  one = int(n);
-  //
-  println(g + h, i, j, k, l);
+  g = "the";
+  h = "king";
+  i = "of";
+  j = "somewhere";
+  k = "can";
+  l = "count";
+  m = "to";
+  n = "INfinty";
+  o = "by";
+  p = "millions";
+  one = int(o);
+  Five = int(n);
+  Ten = int(l);
+  Fifty = Five * Ten;
+  FiveHundred = Five * Ten * Ten;
+  FiveThousand = Five * Ten * Ten * Ten;
+  FiveMillion = FiveThousand * Ten * Ten * Ten;
+  NewCountingVariable_1 = Fifty * FiveMillion; //User defined
+  NewCountingVariable_2 =   //
+  println(g, i, j, k, l, m, n, o, p);
   //
 }//End setup()
 //
@@ -37,9 +51,10 @@ Modulus or Modulo: %
 */
 //
 void draw() {
-  ten = ten + one;
-  println(g + h, i, j, k, ten, m, n);
-}//End draw()
+  Ten = Ten * one;
+  println(g, i, j, k, Ten, m, n);
+  println(Five, Ten, Fifty, FiveHundred, FiveThousand, FiveMillion, NewCountingVariable); 
+}//End draw() 
 
 void keyPressed() {
 }//End keyPressed()
